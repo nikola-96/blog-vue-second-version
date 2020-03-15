@@ -1,10 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/posts">Posts</router-link>
-    </div>
-    <router-view />
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>
+          <div id="nav">
+            <router-link to="/">Home</router-link>|
+            <router-link to="/posts">Posts</router-link>
+          </div>
+          <router-view />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 

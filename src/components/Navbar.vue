@@ -5,6 +5,8 @@
   </div>
 </template>
 <script>
+import { postService } from "@/services/PostService.js";
+
 export default {
   name: "Navbar"
 };
