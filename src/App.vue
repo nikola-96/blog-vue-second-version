@@ -5,7 +5,8 @@
         <b-col>
           <div id="nav">
             <router-link to="/">Home</router-link>|
-            <router-link to="/posts">Posts</router-link>
+            <router-link to="/posts">Posts</router-link>|
+            <router-link to="/add">Create Post</router-link>
           </div>
           <router-view />
         </b-col>

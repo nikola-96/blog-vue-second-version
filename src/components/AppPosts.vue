@@ -14,7 +14,7 @@ export default {
   name: "AppPosts",
   data() {
     return {
-      posts: []
+      posts: {}
     };
   },
   async created() {

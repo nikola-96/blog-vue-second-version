@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import AppPosts from '../components/AppPosts.vue'
 import SinglePost from '../components/SinglePost.vue'
+import AddPost from '../components/AddPost.vue'
+
 
 
 
@@ -23,6 +25,11 @@ const routes = [
     path: '/post/:id',
     name: 'Post',
     component: SinglePost
+  },
+  {
+    path: '/add',
+    name: 'Add',
+    component: AddPost
   }
 
 ]

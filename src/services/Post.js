@@ -7,10 +7,14 @@ export default class PostService {
         return response.data;
     }
     async getSingle(id) {
-        const response = await HTTP.get(`/post/${id}`);
+        const response = await HTTP.get(`/posts/${id}`);
 
         return response.data;
     }
+    async post(post) {
+        await HTTP.post('/posts', post);
+
+    }
 
 }
-export const postService = new PostService() 
+export const postService = new PostService(); 
